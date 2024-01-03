@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = '12'
+targetCompatibility = '12'
+compileJava.options.encoding = "UTF-8"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+    providedRuntime 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.2-b02'
+    implementation group: 'jstl', name: 'jstl', version: '1.2'
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.0.2.RELEASE'
+}
+
+wrapper {
+    gradleVersion = '7.3'
+}
