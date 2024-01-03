@@ -24,7 +24,7 @@
 >   * 정리
 
 ## sp5-chap08/src/main/java/chap09
-> * `스프링 MVC`를 사용해 HTTP 요청에 대한 웹 뷰를 제공합니다.
+> * `스프링 MVC`를 사용해 HTTP 요청에 대한 웹 뷰를 제공합니다.
 > * 스프링 MVC는 `DispatcherServlet`을 사용해 구현합니다.
 > * HTTP 요청은 `컨트롤러`를 사용해 구현합니다.
 > * 웹 뷰는 `JSP`를 사용해 구현합니다.
